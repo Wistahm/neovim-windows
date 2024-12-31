@@ -9,3 +9,7 @@ So before using this config, make sure you have zig installed on your machine. Y
 Neovim (0.8.0 or later)</br>
 Go</br>
 Zig
+
+## Pictures:
+![Screenshot (6)](https://github.com/user-attachments/assets/5a45fca7-1014-44bc-ac0d-5dc012a3e6c9)
+![Screenshot (7)](https://github.com/user-attachments/assets/63468016-caa1-42be-b1b0-5584c97d449d)
