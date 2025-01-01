@@ -150,6 +150,34 @@ local plugins = {
       return newVirtText
     end,
   },
-  }
+  },
+  {
+    "folke/noice.nvim",
+    event = "VeryLazy",
+    opts {
+      -- any options here
+    },
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+      "rcarriga/nvim-notify",
+    },
+    config = function()
+      require("noice").setup({
+        lsp = {
+          override = {
+            ["vim.lsp.util.convert_input_to_markdown_lines"] = true,
+            ["vim.lsp.util.stylize_markdown"] = true,
+          },
+        },
+        present = {
+          bottom_search = true,
+          command_palette = true,
+          long_message_to_split = true,
+          inc_rename = true,
+          lsp_doc_border = true,
+        }
+      })
+    end
+  },
 }
 return plugins
