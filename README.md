@@ -1,4 +1,4 @@
-As a Linux user, I've been trying to configure neovim on my Windows 11 machine recently to make it as productive and as fast as possible for Go programming.
+As a Linux user, I've been trying to configure neovim on my Windows 11 machine recently to make it as productive and as quick as possible for Go programming.
 After a couple of attempts of failure to setup neovim properly on Windows (it was really excruciating, specially with the nvim-treesitter), I found out that [NvChad](https://nvchad.com/) is the best solution.
 It has most of the necessary plugins in it, and it's pretty straight forward to customize it as you want it to be.
 
