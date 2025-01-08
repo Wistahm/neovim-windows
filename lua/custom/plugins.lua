@@ -154,7 +154,7 @@ local plugins = {
   {
     "folke/noice.nvim",
     event = "VeryLazy",
-    opts {
+    opts = {
       -- any options here
     },
     dependencies = {
