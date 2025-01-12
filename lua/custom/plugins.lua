@@ -154,7 +154,7 @@ local plugins = {
   {
     "folke/noice.nvim",
     event = "VeryLazy",
-    opts {
+    opts = {
       -- any options here
     },
     dependencies = {
@@ -249,5 +249,12 @@ local plugins = {
       })
     end
   },
+  {
+   "echasnovski/mini.animate",
+   event = "VeryLazy",
+   opts = function(_, opts) 
+     opts.scroll = {enable = false}
+   end
+  }
 }
 return plugins
